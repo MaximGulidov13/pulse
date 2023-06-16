@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -50,8 +50,8 @@
                 </div>
             </div>
         </div>
-    </div>
-     <div class="advantages">
+    </section>
+     <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -89,8 +89,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="title_left">
                 Получите бесплатную консультацию <br>
@@ -108,7 +108,52 @@
                 <button class="btn btn_submit">Заказать звонок</button>
             </form>
         </div>
-    </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__wrapper">
+                <div class="slider__prev">
+                    <img src="icons/prev.svg" alt="btn">
+                </div>
+                <div class="slider__next">
+                    <img src="icons/next.svg" alt="btn">
+                </div>
+                <div class="slider__item"><img src="img/img__1.png" alt="img_1"></div>
+                <div class="slider__item"><img src="img/img__2.png" alt="img_2"></div>
+                <div class="slider__item"><img src="img/img__3.png" alt="img_3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Каталог пульсометров</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
+                <li class="catalog__tab"><div>Для бега</div></li>
+                <li class="catalog__tab"><div>Для триатлона</div></li>
+            </ul>
+
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <img src="img/card__img.png" alt="pulsometr" class="catalog-item__img">
+                    <div class="catalog-item__subtitle">Пульсометр Suunto M2</div>
+                    <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                    <a href="" class="catalog-item__link">Подробнее</a>
+                    <hr>
+
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4750 руб.</div>
+                            <div class="catalog-item__price">4500 руб.</div>
+                        </div>
+                        <button class="btn btn_mini">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__element-content"></div>
+            <div class="catalog__element-content"></div>
+        </div>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
